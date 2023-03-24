@@ -1,0 +1,92 @@
+.menu {
+    position: relative;
+    
+}
+body {
+    background-image: url("./img/background-movies-series.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+form {
+background: transparent;
+}
+
+.singup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    padding: 24px;
+    font-family: "Quicksand", cursive;
+}
+
+.login {
+    width: 100%;
+    max-width: 800px;
+    background-color: rgba(211, 211, 211, 0.06);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 40px;
+}
+
+.login label {
+    text-align: left;
+}
+
+.escrever {
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255,255,255, 0.7);
+    border-radius: 8px;
+    color: #fff;
+    padding: 16px;
+    font-size: 1rem;
+}
+
+
+.form button {
+    padding: 16px 40px;
+    border-radius: 500px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 4px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(45deg, #9b34ef , #490cb0);
+    margin-bottom: 25px;
+}
+
+.formbt {
+    margin-top: 24px;
+    text-align: left;
+}
+
+.formbt a {
+    text-decoration: none;
+    margin-left: 24px;
+    font-weight: bold;
+    color: #9e86ff;
+}
+
+.btentrar:hover {
+    background: transparent;
+    border: 4px solid #9b34ef;
+    transition: 2s;
+    transform: scale(1.05);
+}
+
+/* Media Querry*/
+
+@media (max-width: 480px) {
+
+    body {
+        height: auto;
+    }
+
+}
+    
